@@ -59,6 +59,8 @@ def _build_cors_settings() -> tuple[list[str], str | None]:
         "http://127.0.0.1:3000",
         "http://localhost:8081",
         "http://127.0.0.1:8081",
+        "http://192.168.1.1:3000",
+        "http://192.168.1.1:8081",
     ]
     seen = set(defaults)
     origins = list(defaults)
